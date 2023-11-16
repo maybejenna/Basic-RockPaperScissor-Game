@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Permanent+Marker&family=Roboto&family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="gameDiv">
+        <h1 id="welcomeMessage">Let's Play Rock-Paper-Scissors!</h1>
+        <section id="imgWrapper">
+            
+        </section>
+
+        <section id="gameInfo">
+        <h2 class="gameText" id="playerText">Player: </h2>
+        <h2 class="gameText" id="computerText">Computer: </h2>
+        <h2 class="gameText" id="resultText">Result: </h2>
+        </section>
+
+        <section id="countDownInfo">
+        <h3 class="gameText" id="countDown">Get Ready!</h3>
+        </section>
+
+        <button class="choiceButton">ROCK</button>
+        <button class="choiceButton">PAPER</button>
+        <button class="choiceButton">SCISSORS</button>
+
+        <div id="scoreboard">
+            <span id="winText">Wins: <span id="winCount">0</span></span>
+            <span id="lossText">Losses: <span id="lossCount">0</span></span>
+            <span id="tieText">Ties: <span id="tieCount">0</span></span>
+        </div>
+
+        <button id="resetButton">RESET GAME COUNT</button>
+
+    </div>
+
+    <script src="RockPaperScissorsScript.js"></script>
+</body>
+</html>
