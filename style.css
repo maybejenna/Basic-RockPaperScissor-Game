@@ -1,6 +1,6 @@
 html{
     background-color: #e3e2f5; 
-    background-image: url('nechama-lock-dLFmwIOGNYo-unsplash.jpg');
+    background-image: url('/images/nechama-lock-dLFmwIOGNYo-unsplash.jpg');
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -24,7 +24,7 @@ html{
 }
 
 #imgWrapper {
-    background-image: url('cartoon-rock-paper-scissors-vector-characters.png');
+    background-image: url('/images/cartoon-rock-paper-scissors-vector-characters.png');
     background-size:contain; 
     background-position: center;
     background-repeat: no-repeat;
